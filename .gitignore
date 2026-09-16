@@ -25,6 +25,15 @@ job_scraper/*.md
 *_BehavioralReport.pdf
 linkedin_Profile.pdf
 
+# Local private profile / configuration overlays
+# Keep personal Claude/job-search context here instead of committing it.
+.private/
+CLAUDE.local.md
+*.local.md
+.env
+.env.*
+!.env.example
+
 # Personal photos and signatures
 *.jpg
 *.jpeg
